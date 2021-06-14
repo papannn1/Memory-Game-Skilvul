@@ -1,0 +1,26 @@
+.leaderboards {
+	width: 20%;
+
+	ol {
+		.header,
+		li {
+			display: flex;
+			width: 100%;
+			justify-content: space-between;
+
+			:first-child {
+				width: 65%;
+				text-overflow: ellipsis;
+				overflow: hidden;
+				white-space: nowrap;
+			}
+			:last-child {
+				width: 25%;
+			}
+		}
+
+		.header {
+			border-bottom: 1px solid black;
+		}
+	}
+}

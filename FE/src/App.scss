@@ -1,0 +1,60 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap");
+
+* {
+	margin: 0;
+	box-sizing: border-box;
+}
+
+.App {
+	display: flex;
+	justify-content: center;
+	height: 100vh;
+	width: 100vw;
+	padding: 5%;
+	font-family: "Kaushan Script", cursive;
+	background: url("./assets/images/bg.jpg") center/cover no-repeat;
+
+	.gameWrapper {
+		width: fit-content;
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+
+		.header {
+			width: 100%;
+			text-align: center;
+
+			span {
+				font-size: 15px;
+				width: 324px;
+				text-align: center;
+				margin: 0 auto;
+			}
+		}
+
+		.footer {
+			width: 100%;
+			text-align: center;
+
+			.score {
+				display: flex;
+				justify-content: space-evenly;
+				margin-bottom: 15px;
+			}
+
+			.btn-restart {
+				button {
+					background-color: red;
+					border: none;
+					border-radius: 10px;
+					color: #fff;
+					width: 95px;
+					height: 30px;
+					font-size: 1rem;
+					font-weight: bold;
+				}
+			}
+		}
+	}
+}
