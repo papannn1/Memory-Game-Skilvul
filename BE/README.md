@@ -1,7 +1,7 @@
 # Garena - Memory Game (Backend)
 ## A simple high score tracker
 
-A simple score tracker for memory game. Functions as a backend extension for memory game made by Garena [Link to FE Project]. Made using Django Framework.
+A simple score tracker for memory game. Functions as a backend extension for memory game made by Garena. Made using Django Framework.
 
 ## Installation
 
