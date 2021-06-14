@@ -26,6 +26,6 @@ class HighScoreView(View):
                 nickname=strip_tags(data['nickname']),
                 finish_time=data['finish_time']
             )
-            except Exception as e:
+        except Exception as e:
             response = {"msg": "High score not saved, please check your request"}
         return JsonResponse(response, safe=False)
